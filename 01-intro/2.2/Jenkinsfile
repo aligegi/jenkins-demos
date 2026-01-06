@@ -34,13 +34,12 @@ pipeline {
             steps {
                 echo "Deploying release ${RELEASE} ${TARGET_ENVIRONMENT} environment"
             }
-        }
+        }    
+    }
 
-        post {
+    post {
             always {
                 echo "Print whether deployment happened or not."
             }
         }
-
-    }
 }
