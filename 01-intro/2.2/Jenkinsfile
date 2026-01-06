@@ -27,7 +27,7 @@ pipeline
                     string(
                         name: 'TARGET_ENVIRONMENT',
                         defaultValue: 'PROD',
-                        'Target environment for deployment'
+                        description: 'Target environment for deployment'
                     )
                 }
             }
