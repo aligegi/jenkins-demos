@@ -1,4 +1,4 @@
-pipeline
+pipeline {
     agent any
     environment {
         RELEASE='0.0.1'
@@ -43,4 +43,4 @@ pipeline
         }
 
     }
-    
+}
